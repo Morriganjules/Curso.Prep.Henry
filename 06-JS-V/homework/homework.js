@@ -25,21 +25,20 @@ function agregarStringInvertida() {
 }
 
 // ---------------------------------------------------------------------------//
-  //Crea el constructor de la clase "Persona"
-  //Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio"
-  //Debe tener un método llamado "detalle" que nos devuelve un objeto con las propiedades de la persona y sus valores.
-  //Ej: { 
-    //   Nombre: 'Juan',
-    //   Apellido: 'Perez',
-    //   Edad: 22,
-    //   Domicilio: 'Saavedra 123'
-    //  }
+//Crea el constructor de la clase "Persona"
+//Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio"
+//Debe tener un método llamado "detalle" que nos devuelve un objeto con las propiedades de la persona y sus valores.
+//Ej: {
+//   Nombre: 'Juan',
+//   Apellido: 'Perez',
+//   Edad: 22,
+//   Domicilio: 'Saavedra 123'
+//  }
 
-  class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
-      // Crea el constructor:
-
-    }
+class Persona {
+  constructor(nombre, apellido, edad, domicilio) {
+    // Crea el constructor:
+  }
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
@@ -47,12 +46,11 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
 }
-  
+
 function agregarMetodo() {
-  //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
+  //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve:
   //Ej: "Juan, 22 años"
 }
-  
 
 // No modificar nada debajo de esta línea
 // --------------------------------
@@ -62,6 +60,6 @@ module.exports = {
   agregarMetodoPrototype,
   agregarStringInvertida,
   crearInstanciaPersona,
-  agregarMetodo, 
-  Persona
+  agregarMetodo,
+  Persona,
 };
